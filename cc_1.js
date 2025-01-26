@@ -31,3 +31,11 @@ console.log("After Splitting:", accountBalance); //682.5
 let customerName = "Choi Jisu";
 let welcomeMessage = "Welcome, " + customerName + "! Thank you for shopping with us!";
 console.log(welcomeMessage);
+
+//Task 5 - Boolean Data Type
+let isLoggedIn = true;
+if (isLoggedIn) {
+    console.log("Access Granted");
+} else {
+    console.log("Access Denied");
+}
