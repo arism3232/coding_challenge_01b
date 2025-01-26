@@ -26,3 +26,8 @@ accountBalance *= 1.05; //interest
 console.log("After Interest:", accountBalance); //1365
 accountBalance /= 2; //splitting amount
 console.log("After Splitting:", accountBalance); //682.5
+
+//Task 4 - String Data Type
+let customerName = "Choi Jisu";
+let welcomeMessage = "Welcome, " + customerName + "! Thank you for shopping with us!";
+console.log(welcomeMessage);
